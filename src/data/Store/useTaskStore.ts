@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { axiosInstance } from '../../lib/axios.js';
 import { task } from '../types/useTaskTypes.js';
-import { ToastSuccess, ToastError } from '../../lib/toastAlert.js';
+import { ToastSuccess } from '../../lib/toastAlert.js';
 
 interface taskState {
     tasks: task[],

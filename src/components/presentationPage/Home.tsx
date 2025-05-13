@@ -1,6 +1,5 @@
 import { Box, Container, Stack, Typography, styled } from '@mui/material';
 import dashboardImg from '../../assets/AppDashbord.png'
-import { lightTheme, darkTheme } from '../../data/theme/theme';
 import useThemeStore from '../../data/Store/themeStore.js';
 
 

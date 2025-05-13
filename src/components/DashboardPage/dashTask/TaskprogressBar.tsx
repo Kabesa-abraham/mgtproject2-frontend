@@ -1,5 +1,5 @@
 import { Box, LinearProgress, Typography } from '@mui/material'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 type taskProgressBarProps = {
     task: {

@@ -1,5 +1,5 @@
 import { Avatar, Box, Card, CircularProgress, Divider, Grid, IconButton, Stack, Typography } from '@mui/material'
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import useThemeStore from '../../../../data/Store/themeStore.js'
 import { useProjectStore } from '../../../../data/Store/useProjectStore.js'
 import { useParams } from 'react-router-dom'

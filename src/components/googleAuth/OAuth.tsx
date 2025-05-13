@@ -1,5 +1,4 @@
 import { Button, CircularProgress } from '@mui/material'
-import React from 'react'
 import { GoogleIcon } from '../customIcons/GoogleIcon.js'
 import { GoogleAuthProvider, signInWithPopup, getAuth } from 'firebase/auth'
 import { app } from '../../firebase.js';

@@ -2,10 +2,9 @@ import { styled, Box, Divider, Stack, Typography, IconButton, List, ListItemButt
 import { Drawer as MuiDrawer, drawerClasses } from '@mui/material'
 import { Link } from 'react-router-dom';
 import SidebarProfileContent from './dashSidebar/SidebarProfileContent';
-import { WbSunnyOutlined, DarkModeOutlined, SpaceDashboard, CalendarMonth, AutoGraph, ExpandLess, ExpandMore, Dns, FolderCopy, Add, Task, Settings, Language } from '@mui/icons-material'
+import { WbSunnyOutlined, DarkModeOutlined, SpaceDashboard, CalendarMonth, AutoGraph, ExpandLess, ExpandMore, Dns, FolderCopy, Add, Task, Language } from '@mui/icons-material'
 import useThemeStore from '../../data/Store/themeStore.ts';
 import { useState } from 'react';
-import { darkTheme } from '../../data/theme/theme.ts';
 
 const deleteStyleLink = { textDecoration: 'none', color: 'inherit' };
 

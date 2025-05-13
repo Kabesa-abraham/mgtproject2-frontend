@@ -3,8 +3,6 @@ import { persist } from 'zustand/middleware'
 import { axiosInstance } from '../../lib/axios.js';
 import { ToastSuccess, ToastError } from '../../lib/toastAlert.js';
 
-//const URL_BASIQUE = import.meta.env.MODE === "development" ? "http://localhost:4000/backend" : "/backend";
-
 type user = {
     _id: string,
     firstName: string,

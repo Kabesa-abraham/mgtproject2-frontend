@@ -1,7 +1,6 @@
 import { Box, Card, Typography } from '@mui/material'
-import React, { use } from 'react'
+import React from 'react'
 import useThemeStore from '../../../data/Store/themeStore.ts'
-import { darkTheme } from '../../../data/theme/theme.ts'
 
 type StateCardProps = {
     icon: React.ReactElement<any, any>;

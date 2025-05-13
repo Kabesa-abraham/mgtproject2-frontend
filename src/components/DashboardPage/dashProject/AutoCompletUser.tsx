@@ -1,7 +1,6 @@
 import { Autocomplete, CircularProgress, TextField } from '@mui/material'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { axiosInstance } from '../../../lib/axios.js';
-import { useAuthStore } from '../../../data/Store/useAuthStore.js';
 
 type UserOption = { // it's the type of the users
     label: string; //will be the email of user

@@ -1,6 +1,5 @@
 import { Box, Button, Container, Grid, Stack, Typography } from "@mui/material"
 import workSpace from "../../assets/peopleWorkSpace.jpg"
-import { darkTheme } from "../../data/theme/theme.js"
 import useThemeStore from "../../data/Store/themeStore.js"
 
 const About = () => {

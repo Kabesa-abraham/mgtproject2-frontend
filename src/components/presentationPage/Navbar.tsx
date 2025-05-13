@@ -1,14 +1,11 @@
-import { styled, alpha } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import { Menu, Close } from '@mui/icons-material';
 import { Box, AppBar, Toolbar, Button, IconButton, Container, Divider, MenuItem, Drawer, Link as MUILink } from '@mui/material'
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { lightTheme, darkTheme } from '../../data/theme/theme';
+import { darkTheme } from '../../data/theme/theme';
 import useThemeStore from '../../data/Store/themeStore.js';
 import { useAuthStore } from '../../data/Store/useAuthStore.js';
-import { motion } from 'framer-motion';
-
-const MotionBox = motion(Box);
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
     display: 'flex',

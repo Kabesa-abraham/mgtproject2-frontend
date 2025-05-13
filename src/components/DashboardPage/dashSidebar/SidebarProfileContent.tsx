@@ -1,8 +1,8 @@
 import MenuItem from '@mui/material/MenuItem';
 import { Box, Typography, IconButton, Menu, Avatar, Stack } from '@mui/material';
-import { MoreVert, Person, LogoutOutlined, Settings } from '@mui/icons-material';
+import { MoreVert, Person, LogoutOutlined } from '@mui/icons-material';
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../../../data/Store/useAuthStore.js';
 
 

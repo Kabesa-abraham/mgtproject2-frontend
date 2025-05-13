@@ -10,32 +10,6 @@ import { task } from '../../data/types/useTaskTypes.js';
 import { useNavigate } from 'react-router-dom'
 
 
-const tasksCreatedByMonth = [ //tasks created by month
-    { month: 'Janu', tasks: 5 },
-    { month: 'Feb', tasks: 8 },
-    { month: 'Mar', tasks: 12 },
-    { month: 'Apr', tasks: 9 },
-    { month: 'Nov', tasks: 25 },
-    { month: 'Dec', tasks: 30 },
-    { month: 'Oct', tasks: 28 },
-];
-
-//-----------------------------
-type ProjectTaskData = {
-    name: string; // Nom du projet
-    completed: number; // Nombre de tâches terminées
-};
-
-const projectTaskFinished: ProjectTaskData[] = [
-    { name: 'Create a new computer that people can use', completed: 12 },
-    { name: 'Projet B in a new city and selebamo kvkdgdg', completed: 8 },
-    { name: 'Projet C', completed: 15 },
-    { name: 'Projet D', completed: 5 },
-    { name: 'Projet E', completed: 10 },
-];
-//-----------------------------
-
-
 const DashHome = () => {
 
     const { darkMode } = useThemeStore();

@@ -1,5 +1,5 @@
 import {
-    Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography, Paper
+    Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper
 } from '@mui/material';
 import { RemoveRedEye } from '@mui/icons-material';
 import useThemeStore from '../../../data/Store/themeStore.js';
