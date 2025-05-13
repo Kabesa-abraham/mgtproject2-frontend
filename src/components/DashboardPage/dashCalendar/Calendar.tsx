@@ -1,4 +1,4 @@
-import { Calendar as ReactBigCalendar, dateFnsLocalizer, Views, View, Event as RBCEvent } from 'react-big-calendar'
+import { Calendar as ReactBigCalendar, dateFnsLocalizer, Views, View } from 'react-big-calendar'
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 import { format, parse, startOfWeek, getDay } from 'date-fns'
 import { fr } from 'date-fns/locale'

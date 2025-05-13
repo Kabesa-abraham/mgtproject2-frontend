@@ -44,10 +44,10 @@ const AutoCompletUser = ({ onSelect, selectedUser }: UserSelectProps) => {
             options={options}
             loading={loading}
             value={options.find(opt => opt.value === selectedUser) || null}
-            onChange={(event, newValue) => {
+            onChange={(_event, newValue) => {
                 onSelect(newValue ? newValue.value : ''); //onSelect will get the userId like value
             }}
-            onInputChange={(event, newInputValue) => {
+            onInputChange={(_event, newInputValue) => {
                 setInputValue(newInputValue);
             }}
 

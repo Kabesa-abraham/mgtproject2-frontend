@@ -45,10 +45,10 @@ export default function ProjectSelect({ onSelect, selectedProjectId }: ProjectSe
             options={options}
             loading={loading}
             value={options.find(opt => opt.value === selectedProjectId) || null}
-            onChange={(event, newValue) => {
+            onChange={(_event, newValue) => {
                 onSelect(newValue ? newValue.value : '');
             }}
-            onInputChange={(event, newInputValue) => {
+            onInputChange={(_event, newInputValue) => {
                 setInputValue(newInputValue);
             }}
 

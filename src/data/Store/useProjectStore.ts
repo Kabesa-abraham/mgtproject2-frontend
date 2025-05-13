@@ -22,7 +22,7 @@ interface projectState {
     deleteProject: (projectId: string) => Promise<Boolean>,
 }
 
-export const useProjectStore = create<projectState>((set, get) => ({
+export const useProjectStore = create<projectState>((set) => ({
     projects: [],
     theProject: null,
     loading: false,

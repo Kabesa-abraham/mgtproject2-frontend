@@ -1,4 +1,4 @@
-import { Button, Card, CircularProgress, Grid, InputLabel, List, TextField } from '@mui/material'
+import { Button, Card, CircularProgress, Grid, InputLabel, TextField } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import useThemeStore from '../../../../data/Store/themeStore.js'
 import { useProjectStore } from '../../../../data/Store/useProjectStore.js'
@@ -9,7 +9,7 @@ const gridItemStyle = { display: 'flex', flexDirection: 'column', gap: 3 }
 const EditProjectCard = () => {
 
     const { darkMode } = useThemeStore();
-    const { getTheProject, theProject, editProject, loading, error } = useProjectStore();
+    const { getTheProject, theProject, editProject, loading } = useProjectStore();
     const { projectId } = useParams(); //return _id of project
     useEffect(() => { //for getting the project details
         if (projectId) {

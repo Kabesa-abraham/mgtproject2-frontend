@@ -45,7 +45,7 @@ const SignUpContainer = styled(Stack)(({ theme }) => ({
     },
 }));
 
-export default function SignIn(props: { disableCustomTheme?: boolean }) {
+export default function SignIn() {
 
     const { handleSignup, isSignup, error, setError } = useAuthStore()
     const navigate = useNavigate();
